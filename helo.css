@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.kepala {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.tenor-gif-embed {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px; /* Set maximum width for the GIF */
+    height: auto;     /* Maintain aspect ratio */
+}
+
+/* Reset dan pengaturan umum */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.ul-navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Align items in a row */
+}
+
+.li-navbar {
+    margin: 0 10px; /* Space out the circular buttons */
+}
+
+.a-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem; /* Size of the circular button */
+    height: 5rem; /* Size of the circular button */
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 50%; /* Make it circular */
+    transition: 0.3s ease;
+    border: 2px solid #4a90e2; /* Border color */
+    text-align: center; /* Center text inside the button */
+    line-height: 1.5; /* Center text vertically */
+}
+
+.a-navbar:hover {
+    background-color: #4a90e2; /* Background color on hover */
+    color: black; /* Text color on hover */
+    transform: scale(1.1); /* Slightly enlarge the button */
+    box-shadow: 0 0 15px #4a90e2; /* Glow effect */
+}
